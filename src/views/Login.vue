@@ -53,7 +53,7 @@
 import { useRouter } from "vue-router";
 import { reactive, ref } from "vue";
 import { post } from "../utils/request";
-import { encipher } from "../utils/index";
+import { encipher } from "../utils/Md5";
 import { User, Lock } from "@element-plus/icons-vue";
 import { ElMessage } from "element-plus"; // 引入消息提示组件
 import { Service, Operation, Postcard, Switch } from "@element-plus/icons-vue";

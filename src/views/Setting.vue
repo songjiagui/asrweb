@@ -22,7 +22,7 @@
   import History from "../components/History.vue";
   import { watch, ref, nextTick } from "vue";
   import { DocumentAdd } from "@element-plus/icons-vue";
-  import { add,nav } from "../utils/index";
+  import { add,nav } from "../utils/Md5";
   const route = useRoute();
   const active = ref(false);
   const state1 = ref("");
